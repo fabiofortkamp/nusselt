@@ -21,15 +21,35 @@
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
-## Features
+## Development Guide
 
-- TODO
+### First time setup
 
-## Requirements
+1. Install the multiple Python versions for testing with [asdf](https://asdf-vm.com):
 
-- TODO
+```shell
+asdf install python 3.8.18 3.9.18 3.10.13 3.11.7 3.12.1
+```
 
-## Installation
+2. Install [pipx](https://pipx.pypa.io/stable/) with [Homebrew](https://brew.sh):
+
+```shell
+brew install pipx
+pipx ensurepath
+```
+
+3. Install required tools with:
+
+```shell
+pipx install poetry nox
+pipx inject nox nox-poetry
+```
+
+4. Clone this repository and run `poetry install` inside it.
+
+### Development Workflow
+
+## User Installation
 
 You can install _Nusselt_ via [pip] from [PyPI]:
 
