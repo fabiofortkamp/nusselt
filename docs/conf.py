@@ -1,4 +1,5 @@
 """Sphinx configuration."""
+
 project = "Nusselt"
 author = "Fábio P. Fortkamp"
 copyright = "2024, Fábio P. Fortkamp"
