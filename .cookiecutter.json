@@ -1,0 +1,16 @@
+{
+  "_checkout": "2022.6.3",
+  "_output_dir": "/Users/fpfortkamp/Repos",
+  "_repo_dir": "/Users/fpfortkamp/.cookiecutters/cookiecutter-hypermodern-python",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "F\u00e1bio P. Fortkamp",
+  "copyright_year": "2024",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "fabio@fabiofortkamp.com",
+  "friendly_name": "Nusselt",
+  "github_user": "fabiofortkamp",
+  "license": "MIT",
+  "package_name": "nusselt",
+  "project_name": "nusselt",
+  "version": "0.0.1"
+}
